@@ -11,8 +11,7 @@
 
 <body>
     <div class="container">
-        <h1 style="font-family: arial;">Calculator By Hardik Kaliyani</h1>
-
+       
         <div class="calculator">
             <input type="text" name="screen" id="screen">
             <table>
@@ -47,10 +46,27 @@
                     <td><button>=</button></td>
                 </tr>
             </table>
+
            
         </div>
-    </div>
+        <a style=" margin-top: 140px; color: black; background-color:#ff5733; border-radius: 10px; list-style: none; text-decoration: none; position: absolute; margin-left: 50px; font-size: 50px; cursor: pointer; width: auto;" onclick="exportTableToCSV('history.csv')">Get History</a>
 
+        <table>
+            
+               <td id="history" style="display: none;"></td>
+            
+
+           
+        </table>
+       
+
+        
+
+    </div>
+    <hr>
+    <h1 style="font-size: 20px;">@Designed By Hardik Kaliyani</h1>
+
+   
 </body>
 <script src="js/script.js"></script>
 
